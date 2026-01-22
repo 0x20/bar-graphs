@@ -1,5 +1,8 @@
 # Ignore everything in tab-data and all subfolders
 tab-data/
 
+# Ignore everything in tab-data and all subfolders
+venv
+
 # Ignore all picklecache files everywhere
 **/picklecache
