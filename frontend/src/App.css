@@ -1,0 +1,153 @@
+/* Login page styles */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-card {
+  background: var(--card-background);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-card h1 {
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.login-card p {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.login-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: #24292e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background: #1a1e21;
+}
+
+/* Dashboard styles */
+.dashboard {
+  min-height: 100vh;
+}
+
+.header {
+  background: var(--card-background);
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-info span {
+  color: var(--text-muted);
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background: var(--border-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background: #dfe6e9;
+}
+
+.main-content {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--card-background);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.summary {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--danger-color);
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.chart-container {
+  width: 100%;
+  min-height: 300px;
+}
+
+.loading,
+.error,
+.empty {
+  padding: 40px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.error {
+  color: var(--danger-color);
+}
